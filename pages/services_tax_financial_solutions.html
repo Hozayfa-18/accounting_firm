@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Tax & Financial Services | TaxFlow Pro - Expert Solutions</title>
+    <meta name="description" content="Comprehensive tax preparation, business consulting, and financial planning services. Expert solutions for individuals and businesses with transparent pricing and proven results." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Faccounting4416back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background">
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-subtle sticky top-0 z-50">
+        <div class="container-max">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <svg class="w-10 h-10 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                        <path d="M20 2L37 12v16L20 38L3 28V12L20 2z"/>
+                        <path d="M20 8L30 14v12L20 32L10 26V14L20 8z" fill="#d69e2e"/>
+                        <text x="20" y="24" text-anchor="middle" class="text-xs font-bold fill-white">T</text>
+                    </svg>
+                    <span class="text-2xl font-playfair font-bold text-primary">TaxFlow Pro</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage_professional_tax_services.html" class="text-secondary-600 hover:text-primary transition-smooth">Home</a>
+                    <a href="services_tax_financial_solutions.html" class="text-primary font-medium border-b-2 border-accent">Services</a>
+                    <a href="about_expertise_trust_foundation.html" class="text-secondary-600 hover:text-primary transition-smooth">About</a>
+                    <a href="resources_tax_authority_hub.html" class="text-secondary-600 hover:text-primary transition-smooth">Resources</a>
+                    <a href="blog_tax_insights_thought_leadership.html" class="text-secondary-600 hover:text-primary transition-smooth">Blog</a>
+                    <a href="client_portal_future_ready_placeholder.html" class="text-secondary-600 hover:text-primary transition-smooth">Client Portal</a>
+                    <a href="contact_multi_touch_engagement.html" class="btn-primary">Contact Us</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2" id="mobile-menu-btn">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="py-4 space-y-4 border-t border-gray-200">
+                    <a href="homepage_professional_tax_services.html" class="block text-secondary-600">Home</a>
+                    <a href="services_tax_financial_solutions.html" class="block text-primary font-medium">Services</a>
+                    <a href="about_expertise_trust_foundation.html" class="block text-secondary-600">About</a>
+                    <a href="resources_tax_authority_hub.html" class="block text-secondary-600">Resources</a>
+                    <a href="blog_tax_insights_thought_leadership.html" class="block text-secondary-600">Blog</a>
+                    <a href="client_portal_future_ready_placeholder.html" class="block text-secondary-600">Client Portal</a>
+                    <a href="contact_multi_touch_engagement.html" class="block btn-primary text-center">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-primary text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-primary-800 to-primary-900"></div>
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <polygon points="0,0 100,0 80,100 0,100" fill="url(#heroPattern)"/>
+                <defs>
+                    <pattern id="heroPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <circle cx="10" cy="10" r="1" fill="white" opacity="0.3"/>
+                    </pattern>
+                </defs>
+            </svg>
+        </div>
+        
+        <div class="container-max relative z-10 section-padding">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-5xl lg:text-6xl font-playfair font-bold leading-tight mb-6 text-white">
+                    Expert Tax & <span class="text-accent">Financial Solutions</span>
+                </h1>
+                <p class="text-xl text-gray-200 leading-relaxed mb-8 max-w-3xl mx-auto">
+                    Comprehensive services designed to optimize your financial success. From individual tax preparation to complex business consulting, we deliver results that matter.
+                </p>
+                
+                <!-- Quick Service Selector -->
+                <div class="flex flex-wrap justify-center gap-4 mb-8">
+                    <button class="service-tab active bg-accent text-white px-6 py-3 rounded-lg font-semibold transition-smooth" data-service="individual">
+                        Individual Services
+                    </button>
+                    <button class="service-tab bg-white bg-opacity-20 text-white px-6 py-3 rounded-lg font-semibold transition-smooth hover:bg-opacity-30" data-service="business">
+                        Business Services
+                    </button>
+                    <button class="service-tab bg-white bg-opacity-20 text-white px-6 py-3 rounded-lg font-semibold transition-smooth hover:bg-opacity-30" data-service="planning">
+                        Tax Planning
+                    </button>
+                    <button class="service-tab bg-white bg-opacity-20 text-white px-6 py-3 rounded-lg font-semibold transition-smooth hover:bg-opacity-30" data-service="consulting">
+                        Financial Consulting
+                    </button>
+                </div>
+
+                <a href="#services-overview" class="btn-secondary">
+                    Explore Our Services
+                    <svg class="w-5 h-5 inline ml-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services-overview" class="section-padding bg-surface">
+        <div class="container-max">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-playfair font-bold text-primary mb-4">Our Service Categories</h2>
+                <p class="text-lg text-secondary-600 max-w-2xl mx-auto">Choose from our comprehensive range of tax and financial services, each designed to meet your specific needs and goals.</p>
+            </div>
+
+            <!-- Individual Tax Services -->
+            <div class="service-category mb-16" id="individual-services">
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                    <div>
+                        <h3 class="text-3xl font-playfair font-bold text-primary mb-6">Individual Tax Preparation</h3>
+                        <p class="text-lg text-secondary-600 mb-6">Professional tax preparation services for individuals, families, and freelancers. We maximize your refunds while ensuring full compliance with current tax laws.</p>
+                        
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Federal & State Tax Returns</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Investment & Rental Property Income</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Deduction Optimization</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Audit Protection & Support</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-accent bg-opacity-10 rounded-lg p-6 mb-6">
+                            <h4 class="font-semibold text-primary mb-2">Starting at ₹2,500</h4>
+                            <p class="text-sm text-secondary-600">Includes federal return, one state return, and basic consultation</p>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Individual tax preparation consultation" class="rounded-2xl shadow-strong w-full h-96 object-cover" loading="lazy" onerror="this.src='https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        
+                        <!-- Floating ROI Calculator -->
+                        <div class="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-strong p-6 max-w-xs">
+                            <h5 class="font-semibold text-primary mb-2">Average Client Savings</h5>
+                            <div class="text-2xl font-playfair font-bold text-accent">₹8,500</div>
+                            <p class="text-sm text-secondary-600">vs. self-filing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Individual Services Grid -->
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="card">
+                        <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
+                                <path fill-rule="evenodd" d="M4 5a2 2 0 012-2v1a1 1 0 001 1h6a1 1 0 001-1V3a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-playfair font-semibold text-primary mb-3">Simple Returns</h4>
+                        <p class="text-secondary-600 mb-4">W-2 income, standard deductions, basic situations</p>
+                        <div class="text-accent font-semibold">From ₹2,500</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4zM18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-playfair font-semibold text-primary mb-3">Complex Returns</h4>
+                        <p class="text-secondary-600 mb-4">Multiple income sources, investments, rental properties</p>
+                        <div class="text-accent font-semibold">From ₹5,500</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-playfair font-semibold text-primary mb-3">Premium Service</h4>
+                        <p class="text-secondary-600 mb-4">Year-round support, tax planning, audit protection</p>
+                        <div class="text-accent font-semibold">From ₹8,500</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Tax Services -->
+            <div class="service-category mb-16" id="business-services">
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                    <div class="order-2 lg:order-1 relative">
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Business tax consultation meeting" class="rounded-2xl shadow-strong w-full h-96 object-cover" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg'; this.onerror=null;" />
+                        
+                        <!-- ROI Calculator -->
+                        <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-strong p-6 max-w-xs">
+                            <h5 class="font-semibold text-primary mb-2">Business Tax Savings</h5>
+                            <div class="text-2xl font-playfair font-bold text-accent">₹45,000</div>
+                            <p class="text-sm text-secondary-600">Average annual savings</p>
+                        </div>
+                    </div>
+
+                    <div class="order-1 lg:order-2">
+                        <h3 class="text-3xl font-playfair font-bold text-primary mb-6">Business Tax Services</h3>
+                        <p class="text-lg text-secondary-600 mb-6">Comprehensive tax solutions for businesses of all sizes. From startups to established corporations, we optimize your tax strategy while ensuring compliance.</p>
+                        
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Corporate Tax Returns</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Payroll Tax Management</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Entity Structure Optimization</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Multi-State Tax Compliance</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-accent bg-opacity-10 rounded-lg p-6 mb-6">
+                            <h4 class="font-semibold text-primary mb-2">Starting at ₹15,000</h4>
+                            <p class="text-sm text-secondary-600">Includes business return preparation and quarterly consultation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business Services Grid -->
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="card">
+                        <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-playfair font-semibold text-primary mb-3">Small Business</h4>
+                        <p class="text-secondary-600 mb-4">Sole proprietorships, partnerships, small LLCs</p>
+                        <div class="text-accent font-semibold">From ₹15,000</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-playfair font-semibold text-primary mb-3">Corporate</h4>
+                        <p class="text-secondary-600 mb-4">C-Corps, S-Corps, complex business structures</p>
+                        <div class="text-accent font-semibold">From ₹35,000</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="w-12 h-12 bg-accent bg-opacity-10 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-lg font-playfair font-semibold text-primary mb-3">Enterprise</h4>
+                        <p class="text-secondary-600 mb-4">Multi-entity, international operations, complex compliance</p>
+                        <div class="text-accent font-semibold">Custom Pricing</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tax Planning & Strategy -->
+            <div class="service-category mb-16" id="planning-services">
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                    <div>
+                        <h3 class="text-3xl font-playfair font-bold text-primary mb-6">Tax Planning & Strategy</h3>
+                        <p class="text-lg text-secondary-600 mb-6">Proactive tax planning to minimize your tax burden and maximize opportunities. Strategic advice for major life events and business decisions.</p>
+                        
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Year-Round Tax Strategy</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Retirement Planning Optimization</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Investment Tax Strategies</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Estate & Succession Planning</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-accent bg-opacity-10 rounded-lg p-6 mb-6">
+                            <h4 class="font-semibold text-primary mb-2">Starting at ₹7,500</h4>
+                            <p class="text-sm text-secondary-600">Includes comprehensive tax analysis and strategic recommendations</p>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <img src="https://images.pixabay.com/photo/2015/01/08/18/27/startup-593341_1280.jpg" alt="Tax planning strategy session" class="rounded-2xl shadow-strong w-full h-96 object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                        
+                        <!-- Planning Benefits -->
+                        <div class="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-strong p-6 max-w-xs">
+                            <h5 class="font-semibold text-primary mb-2">Planning Benefits</h5>
+                            <div class="text-2xl font-playfair font-bold text-accent">25%</div>
+                            <p class="text-sm text-secondary-600">Average tax reduction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Financial Consulting -->
+            <div class="service-category" id="consulting-services">
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                    <div class="order-2 lg:order-1 relative">
+                        <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Financial consulting meeting" class="rounded-2xl shadow-strong w-full h-96 object-cover" loading="lazy" onerror="this.src='https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        
+                        <!-- Consulting ROI -->
+                        <div class="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-strong p-6 max-w-xs">
+                            <h5 class="font-semibold text-primary mb-2">Client Portfolio Growth</h5>
+                            <div class="text-2xl font-playfair font-bold text-accent">18%</div>
+                            <p class="text-sm text-secondary-600">Average annual return</p>
+                        </div>
+                    </div>
+
+                    <div class="order-1 lg:order-2">
+                        <h3 class="text-3xl font-playfair font-bold text-primary mb-6">Financial Consulting</h3>
+                        <p class="text-lg text-secondary-600 mb-6">Comprehensive financial planning and investment guidance to build and preserve your wealth. Strategic advice for all life stages and financial goals.</p>
+                        
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Investment Portfolio Management</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Retirement & Education Planning</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Risk Management & Insurance</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <span class="text-secondary-700">Estate Planning Coordination</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-accent bg-opacity-10 rounded-lg p-6 mb-6">
+                            <h4 class="font-semibold text-primary mb-2">Starting at ₹12,500</h4>
+                            <p class="text-sm text-secondary-600">Includes comprehensive financial analysis and planning recommendations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Comparison Tool -->
+    <section class="section-padding bg-white">
+        <div class="container-max">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-playfair font-bold text-primary mb-4">Compare Our Services</h2>
+                <p class="text-lg text-secondary-600 max-w-2xl mx-auto">Find the perfect service package for your needs with our interactive comparison tool</p>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white rounded-lg shadow-medium overflow-hidden">
+                    <thead class="bg-primary text-white">
+                        <tr>
+                            <th class="px-6 py-4 text-left font-semibold">Service Features</th>
+                            <th class="px-6 py-4 text-center font-semibold">Basic</th>
+                            <th class="px-6 py-4 text-center font-semibold">Professional</th>
+                            <th class="px-6 py-4 text-center font-semibold">Premium</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="px-6 py-4 font-medium text-secondary-700">Tax Return Preparation</td>
+                            <td class="px-6 py-4 text-center">
+                                <svg class="w-5 h-5 text-accent mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </td>
+                            <td class="px-6 py-4 text-center">
+                                <svg class="w-5 h-5 text-accent mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </td>
+                            <td class="px-6 py-4 text-center">
+                                <svg class="w-5 h-5 text-accent mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-secondary-700">Year-Round Support</td>
+                            <td class="px-6 py-4 text-center text-gray-400">—</td>
+                            <td class="px-6 py-4 text-center">
+                                <svg class="w-5 h-5 text-accent mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </td>
+                            <td class="px-6 py-4 text-center">
+                                <svg class="w-5 h-5 text-accent mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 font-medium text-secondary-700">Tax Planning Strategy</td>
+                            <td class="px-6 py-4 text-center text-gray-400">—</td>
+                            <td class="px-6 py-4 text-center">
+                                <svg class="w-5 h-5 text-accent mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </td>
+                            <td class="px-6 py-4 text-center">
+                                <svg class="w-5 h-5 text-accent mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td class="px-6 py-4 font-medium text-secondary-700">Audit Protection</td>
+                            <td class="px-6 py-4 text-center text-gray-400">—</td>
+                            <td class="px-6 py-4 text-center text-gray-400">—</td>
+                            <td class="px-6 py-4 text-center">
+                                <svg class="w-5 h-5 text-accent mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 font-medium text-secondary-700">Financial Planning</td>
+                            <td class="px-6 py-4 text-center text-gray-400">—</td>
+                            <td class="px-6 py-4 text-center text-gray-400">—</td>
+                            <td class="px-6 py-4 text-center">
+                                <svg class="w-5 h-5 text-accent mx-auto" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </td>
+                        </tr>
+                        <tr class="bg-primary text-white">
+                            <td class="px-6 py-4 font-semibold">Starting Price</td>
+                            <td class="px-6 py-4 text-center font-bold">₹2,500</td>
+                            <td class="px-6 py-4 text-center font-bold">₹7,500</td>
+                            <td class="px-6 py-4 text-center font-bold">₹15,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Success Stories -->
+    <section class="section-padding bg-surface">
+        <div class="container-max">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-playfair font-bold text-primary mb-4">Client Success Stories</h2>
+                <p class="text-lg text-secondary-600 max-w-2xl mx-auto">Real results from real clients across our service categories</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Success Story 1 -->
+                <div class="card">
+                    <div class="flex items-center mb-6">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Rajesh Kumar" class="w-16 h-16 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2'; this.onerror=null;" />
+                        <div>
+                            <h4 class="text-lg font-playfair font-semibold text-primary">Rajesh Kumar</h4>
+                            <p class="text-sm text-secondary-600">Manufacturing Business Owner</p>
+                            <div class="text-accent font-semibold text-sm">Business Tax Optimization</div>
+                        </div>
+                    </div>
+                    <blockquote class="text-secondary-700 mb-4 italic">
+                        "TaxFlow Pro restructured our business entity and implemented strategic tax planning that saved us ₹45,000 in the first year alone. Their expertise in manufacturing tax incentives was invaluable."
+                    </blockquote>
+                    <div class="bg-accent bg-opacity-10 rounded-lg p-4">
+                        <div class="text-2xl font-playfair font-bold text-accent">₹45,000</div>
+                        <div class="text-sm text-secondary-600">Annual tax savings achieved</div>
+                    </div>
+                </div>
+
+                <!-- Success Story 2 -->
+                <div class="card">
+                    <div class="flex items-center mb-6">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=150&h=150&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Priya Sharma" class="w-16 h-16 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2017/06/26/02/47/person-2442565_150.jpg'; this.onerror=null;" />
+                        <div>
+                            <h4 class="text-lg font-playfair font-semibold text-primary">Priya Sharma</h4>
+                            <p class="text-sm text-secondary-600">Senior IT Executive</p>
+                            <div class="text-accent font-semibold text-sm">Investment Tax Strategy</div>
+                        </div>
+                    </div>
+                    <blockquote class="text-secondary-700 mb-4 italic">
+                        "Their comprehensive approach to my investment portfolio and tax planning helped me optimize my retirement savings while minimizing current tax liability. Excellent strategic guidance."
+                    </blockquote>
+                    <div class="bg-accent bg-opacity-10 rounded-lg p-4">
+                        <div class="text-2xl font-playfair font-bold text-accent">₹18,500</div>
+                        <div class="text-sm text-secondary-600">Tax savings on investments</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section-padding bg-primary text-white">
+        <div class="container-max">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-playfair font-bold mb-6">Ready to Get Started?</h2>
+                    <p class="text-xl text-gray-200 mb-8">Schedule your free consultation today and discover how our expert services can optimize your financial success.</p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Free initial consultation</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Transparent pricing with no hidden fees</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Personalized service recommendations</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center space-x-4">
+                        <div class="text-center">
+                            <div class="text-2xl font-playfair font-bold text-accent">24hrs</div>
+                            <div class="text-sm text-gray-300">Response time</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-playfair font-bold text-accent">98%</div>
+                            <div class="text-sm text-gray-300">Client satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 text-secondary-700">
+                    <h3 class="text-2xl font-playfair font-bold text-primary mb-6">Get Your Free Consultation</h3>
+                    
+                    <form class="space-y-6" action="#" method="POST">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-secondary-700 mb-2">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required class="form-input" />
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-secondary-700 mb-2">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required class="form-input" />
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-secondary-700 mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" required class="form-input" />
+                        </div>
+
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-secondary-700 mb-2">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" />
+                        </div>
+
+                        <div>
+                            <label for="serviceInterest" class="block text-sm font-medium text-secondary-700 mb-2">Service Interest</label>
+                            <select id="serviceInterest" name="serviceInterest" required class="form-input">
+                                <option value>Select a service</option>
+                                <option value="individual-tax">Individual Tax Preparation</option>
+                                <option value="business-tax">Business Tax Services</option>
+                                <option value="tax-planning">Tax Planning & Strategy</option>
+                                <option value="financial-consulting">Financial Consulting</option>
+                                <option value="multiple">Multiple Services</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-secondary-700 mb-2">Tell us about your needs</label>
+                            <textarea id="message" name="message" rows="4" class="form-input" placeholder="Describe your tax situation or financial goals..."></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full btn-primary">
+                            Schedule Free Consultation
+                            <svg class="w-5 h-5 inline ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white">
+        <div class="container-max section-padding">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <svg class="w-8 h-8 text-accent" viewBox="0 0 40 40" fill="currentColor">
+                            <path d="M20 2L37 12v16L20 38L3 28V12L20 2z"/>
+                            <path d="M20 8L30 14v12L20 32L10 26V14L20 8z" fill="#d69e2e"/>
+                            <text x="20" y="24" text-anchor="middle" class="text-xs font-bold fill-white">T</text>
+                        </svg>
+                        <span class="text-xl font-playfair font-bold">TaxFlow Pro</span>
+                    </div>
+                    <p class="text-gray-300">Your trusted partner for professional tax services and financial planning.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-accent transition-smooth">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-accent transition-smooth">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-accent transition-smooth">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="homepage_professional_tax_services.html" class="text-gray-300 hover:text-accent transition-smooth">Home</a></li>
+                        <li><a href="services_tax_financial_solutions.html" class="text-gray-300 hover:text-accent transition-smooth">Services</a></li>
+                        <li><a href="about_expertise_trust_foundation.html" class="text-gray-300 hover:text-accent transition-smooth">About</a></li>
+                        <li><a href="contact_multi_touch_engagement.html" class="text-gray-300 hover:text-accent transition-smooth">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services_tax_financial_solutions.html" class="text-gray-300 hover:text-accent transition-smooth">Tax Preparation</a></li>
+                        <li><a href="services_tax_financial_solutions.html" class="text-gray-300 hover:text-accent transition-smooth">Business Consulting</a></li>
+                        <li><a href="services_tax_financial_solutions.html" class="text-gray-300 hover:text-accent transition-smooth">Financial Planning</a></li>
+                        <li><a href="services_tax_financial_solutions.html" class="text-gray-300 hover:text-accent transition-smooth">Audit Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            <span class="text-gray-300">+91 98765 43210</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <span class="text-gray-300">info@taxflowpro.com</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 text-accent mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-gray-300">123 Business District, Mumbai, Maharashtra 400001</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-primary-700 mt-12 pt-8 text-center">
+                <p class="text-gray-300">© 2025 TaxFlow Pro. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactive Elements -->
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Service Tab Switching
+        document.querySelectorAll('.service-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                // Remove active class from all tabs
+                document.querySelectorAll('.service-tab').forEach(t => {
+                    t.classList.remove('active', 'bg-accent', 'text-white');
+                    t.classList.add('bg-white', 'bg-opacity-20', 'text-white');
+                });
+                
+                // Add active class to clicked tab
+                this.classList.add('active', 'bg-accent', 'text-white');
+                this.classList.remove('bg-white', 'bg-opacity-20');
+                
+                // Scroll to relevant service section
+                const serviceType = this.getAttribute('data-service');
+                let targetSection;
+                
+                switch(serviceType) {
+                    case 'individual':
+                        targetSection = document.getElementById('individual-services');
+                        break;
+                    case 'business':
+                        targetSection = document.getElementById('business-services');
+                        break;
+                    case 'planning':
+                        targetSection = document.getElementById('planning-services');
+                        break;
+                    case 'consulting':
+                        targetSection = document.getElementById('consulting-services');
+                        break;
+                }
+                
+                if (targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handling
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const serviceInterest = formData.get('serviceInterest');
+            
+            // Simulate form submission
+            const submitButton = this.querySelector('button[type="submit"]');
+            const originalText = submitButton.innerHTML;
+            
+            submitButton.innerHTML = 'Submitting...';
+            submitButton.disabled = true;
+            
+            setTimeout(() => {
+                alert('Thank you for your interest! We will contact you within 24 hours to schedule your free consultation.');
+                this.reset();
+                submitButton.innerHTML = originalText;
+                submitButton.disabled = false;
+            }, 1500);
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-slide-up');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and service categories
+        document.querySelectorAll('.card, .service-category').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+
+</body>
+</html>
